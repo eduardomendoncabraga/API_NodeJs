@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "0.0.1",
+  "description": "Api teste CRUD",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EDUARDOMBRAGA"
+  },
+  "author": "Eduardo Mendonça Braga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "debug": "^2.6.8",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "guid": "0.0.12",
+    "heroku": "^0.2.0",
+    "http": "0.0.0",
+    "jano-mysql": "0.0.7",
+    "jsonwebtoken": "^7.4.0",
+    "md5": "^2.2.1",
+    "mongoose": "^4.11.6",
+    "sendgrid": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

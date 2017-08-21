@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lojinha</title>
+</head>
+
+<body>
+    <h1>L O J A S M N </h1>
+    <ul>
+        <% for(var i = 0; i < produto.length; i++){ %>
+            <li>
+                <%= produto[i].nome %> -
+                    <%= produto[i].preco %> -
+                        <%= produto[i].ativo %>
+            </li>
+            <% } %>
+    </ul>
+
+    <form onsubmit="createProduto(event)">
+        <input type="text" id="nome" placeholder="Nome" autofocus/>
+        <input type="text" id="preco" placeholder="Preço" />
+        <input type="text" id="ativo" placeholder="Ativo" />
+        <input type="submit" value="Criar" />
+    </form>
+</body>
+<script>
+    function createProduto(event) {
+        event.preventDefault();
+        var nome = document.querySelector('#nome').value,
+            preco = document.querySelector('#preco').value,
+            ativo = document.querySelector('#ativo').value;
+
+        fetch('/', {
+            method: 'post',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ nome, preco, ativo })
+        })
+            .then(resp => resp.json())
+            .then(() => { location.reload() })
+            .catch(() => {
+                console.error('ocorreu um erro!');
+            })
+    }
+
+</script>
+
+</html>
