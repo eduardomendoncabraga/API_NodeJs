@@ -3,7 +3,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res, next) => {
+router.get('/index.html', (req, res, next) => {
     res.status(200).send({ title: "Node API", version: "0.0.1" })
 })
 
