@@ -4,9 +4,7 @@
   "description": "Api teste CRUD",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install && grunt build"
+    "start": "nodemon ./bin/server.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +18,6 @@
     "ejs": "^2.5.7",
     "express": "^4.15.3",
     "guid": "0.0.12",
-    "heroku": "^0.2.0",
     "http": "0.0.0",
     "jano-mysql": "0.0.7",
     "jsonwebtoken": "^7.4.0",
