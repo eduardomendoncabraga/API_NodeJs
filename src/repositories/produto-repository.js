@@ -45,7 +45,6 @@ exports.update = async (id, data) => {
                 nome: data.nome,
                 descricao: data.descricao,
                 slug: data.slug,
-                preco: data.preco
             }
         });
 }
