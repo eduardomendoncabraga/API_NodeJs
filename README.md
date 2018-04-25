@@ -7,6 +7,6 @@ A codificação dessa Api foi baseada nos exemplos do curso: Criando APIs com No
 
 Link do Cruso: https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn 
 
-# No curso e passado o conhecimento de Deploy e publicação da Api no Portal Azure, porem para minha codificação subi a Api em outro serviço sendo o mesmo o Heroku por ter mais facilidade na ferramenta, vocês podem acessar link abaixo com acesso a essa Api:
+No curso e passado o conhecimento de Deploy e publicação da Api no Portal Azure, porem para minha codificação subi a Api em outro serviço sendo o mesmo o Heroku por ter mais facilidade na ferramenta, vocês podem acessar link abaixo com acesso a essa Api:
 
 https://eduardo-dev-api-49916.herokuapp.com/
