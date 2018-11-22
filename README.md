@@ -1,5 +1,5 @@
 # API
-Construção de um exmplo de Api em Node JS com banco de dados NoSQL => Mongodb
+Exemplo de Api em Node JS com banco de dados NoSQL => Mongodb
 
 - O desenvolvimento dessa Api foi demonstrar um Crud de clients, products e orders, seguindo de validações, permissões, tokens, etcs. 
 
