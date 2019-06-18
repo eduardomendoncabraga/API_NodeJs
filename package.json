@@ -21,13 +21,16 @@
     "guid": "0.0.12",
     "http": "0.0.0",
     "jano-mysql": "0.0.7",
-    "jsonwebtoken": "^7.4.0",
+    "jsonwebtoken": "^8.5.0",
     "md5": "^2.2.1",
-    "mongoose": "^4.11.6",
-    "sendgrid": "^2.0.0"
+    "mongoose": "^5.4.19",
+    "pg": "^7.9.0",
+    "sendgrid": "^2.0.0",
+    "sequelize": "^5.1.1"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.11.0",
+    "sequelize-cli": "^5.4.0"
   },
   "engines": {
     "node": "8.1.3"
