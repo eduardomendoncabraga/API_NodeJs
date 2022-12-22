@@ -21,7 +21,7 @@
     "guid": "0.0.12",
     "http": "0.0.0",
     "jano-mysql": "0.0.7",
-    "jsonwebtoken": "^8.5.0",
+    "jsonwebtoken": "^9.0.0",
     "md5": "^2.2.1",
     "mongoose": "^5.4.19",
     "pg": "^7.9.0",
